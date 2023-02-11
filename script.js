@@ -6,5 +6,5 @@ form.addEventListener('submit', async (event) => {
   const cep = document.querySelector('input[name="cep"]').value;
   const response = await fetch(`https://api.postmon.com.br/v1/cep/${cep}`);
   const endereco = await response.json();
-  resultado.innerHTML = `Rua: ${endereco.logradouro}`;
+  resultado.innerHTML = `Endereço: ${endereco.logradouro}`;
 });
