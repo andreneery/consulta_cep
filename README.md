@@ -11,4 +11,4 @@ O arquivo style.css contém as regras de estilo para a página, incluindo a defi
 O arquivo script.js contém o código JavaScript responsável por realizar a consulta a partir do CEP informado e exibir o resultado na página. Quando o formulário é enviado, o código JavaScript impede o envio de dados para o servidor, realiza a consulta a partir do CEP informado e atualiza o conteúdo da página com o resultado da consulta.
 
 
-
+#Link do projeto# https://andreneery.github.io/consulta_cep/
